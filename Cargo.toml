@@ -1,0 +1,13 @@
+[package]
+name = "gofile"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+clap = { version = "4.3.19", features = ["derive"] }
+gofile_api = { git = "https://github.com/Rudo2204/gofile_api.git", rev = "0773022" }
+reqwest = { version = "0.12.4", features = ["stream"] }
+tokio = "1.29.1"
