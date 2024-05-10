@@ -8,6 +8,9 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.82"
 clap = { version = "4.3.19", features = ["derive"] }
-gofile_api = { git = "https://github.com/Rudo2204/gofile_api.git", rev = "0773022" }
+gofile_api = { git = "https://github.com/Rudo2204/gofile_api.git", rev = "a2e8f1" }
+indicatif = "0.17.8"
 reqwest = { version = "0.12.4", features = ["stream"] }
 tokio = "1.29.1"
+uuid = { version = "1.8.0", features = ["v4"] }
+walkdir = "2.5.0"
